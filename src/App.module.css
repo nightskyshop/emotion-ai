@@ -1,0 +1,75 @@
+.main {
+	height: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+.emotion {
+	margin-top: 1em;
+}
+
+.collor__pallte_list {
+	display: flex;
+	margin-bottom: 0.25em;
+}
+
+.color__pallte {
+	width: 10px;
+	height: 10px;
+	margin: auto 0.25em auto;
+}
+
+.red {
+	background-color: #c40c0c;
+}
+
+.green {
+	background-color: #0a6847;
+}
+
+.black {
+	background-color: #0c0c0c;
+}
+
+.orange {
+	background-color: #ff9800;
+}
+
+.blue {
+	background-color: #0e46a3;
+}
+
+.yellow {
+	background-color: #ffc100;
+}
+
+.color__name {
+	font-size: var(--fs-h5);
+	font-weight: var(--fw-reg);
+}
+
+.emotion__create_btn {
+	display: block;
+	cursor: pointer;
+	width: calc(100% - 2em);
+	text-align: center;
+	font-size: var(--fs-h2);
+	color: var(--clr-light);
+	background-color: var(--clr-point);
+	padding: 0.5em;
+	margin: 1em 1em 0.5em;
+	border-radius: 24px;
+	box-sizing: border-box;
+}
+
+.emotion > h1 {
+	margin: 0.5em 0 0.25em;
+}
+
+.emotion__list {
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 0.25em;
+	padding-bottom: 3em;
+}

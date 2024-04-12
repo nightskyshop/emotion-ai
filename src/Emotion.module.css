@@ -1,0 +1,21 @@
+.emotion__chart {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	gap: 0.5em;
+	text-align: center;
+	margin: 1em auto 0;
+}
+
+.emotion__chart > a {
+	margin-right: auto;
+	cursor: pointer;
+}
+
+.emotion__chart > a {
+	font-size: var(--fs-h2);
+}
+
+.emotion__chart > canvas {
+	margin: 1em auto 0;
+}

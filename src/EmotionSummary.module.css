@@ -1,0 +1,15 @@
+.emotion__summary {
+	margin: 0.25em 0;
+	border: 1px solid var(--clr-dark);
+	border-radius: 14px;
+	padding: 0.5em;
+}
+
+.emotion__summary a {
+	cursor: pointer;
+}
+
+.emotion__summary a h1 {
+	font-weight: var(--fw-reg);
+	font-size: var(--fs-h2);
+}

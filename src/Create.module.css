@@ -1,0 +1,60 @@
+.main {
+	height: 100vh;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+.recording__visualization {
+	margin: 1em auto 0;
+}
+
+.recording__sound_wave {
+	display: block;
+	margin: 0 auto;
+}
+
+.recording__time {
+	font-size: var(--fs-h2);
+	text-align: center;
+}
+
+.button {
+	display: block;
+	max-width: 90px;
+	margin: 1em auto 0;
+	padding: 1em;
+	color: var(--clr-light);
+	background-color: var(--clr-point);
+	border-radius: 24px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.button__cancel {
+	display: block;
+	max-width: 90px;
+	margin: 0.25em auto 0;
+	padding: 1em;
+	color: var(--clr-light);
+	background-color: var(--clr-gray);
+	border-radius: 24px;
+	opacity: 0.6;
+	cursor: pointer;
+	text-align: center;
+}
+
+.loading {
+	display: flex;
+	background-color: rgb(128, 128, 128, 0.9);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.loading h1 {
+	margin: auto auto;
+	text-align: center;
+}
